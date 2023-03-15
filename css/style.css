@@ -153,9 +153,13 @@ button:hover {
     color: #db1912;
 }
 
-
-
-
+@media only screen and (max-width: 479px) {
+    .container {
+        min-width: 300px;
+        min-height: 300px;
+    }
+}
+ 
 
 
 
